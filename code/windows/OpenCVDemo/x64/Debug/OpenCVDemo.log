@@ -1,0 +1,14 @@
+﻿生成启动时间为 2013/5/18 12:44:23。
+     1>项目“C:\Users\BeyondVincent\Desktop\OpenVC\code\OpenCVDemo\OpenCVDemo\OpenCVDemo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\OpenCVDemo.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt OpenCVDemo.cpp
+         OpenCVDemo.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\BeyondVincent\Desktop\OpenVC\code\OpenCVDemo\x64\Debug\OpenCVDemo.exe" /INCREMENTAL /NOLOGO opencv_calib3d243d.lib opencv_contrib243d.lib opencv_core243d.lib opencv_features2d243d.lib opencv_flann243d.lib opencv_gpu243d.lib opencv_haartraining_engined.lib opencv_highgui243d.lib opencv_imgproc243d.lib opencv_legacy243d.lib opencv_ml243d.lib opencv_nonfree243d.lib opencv_objdetect243d.lib opencv_photo243d.lib opencv_stitching243d.lib opencv_ts243d.lib opencv_video243d.lib opencv_videostab243d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\BeyondVincent\Desktop\OpenVC\code\OpenCVDemo\x64\Debug\OpenCVDemo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\BeyondVincent\Desktop\OpenVC\code\OpenCVDemo\x64\Debug\OpenCVDemo.lib" /MACHINE:X64 x64\Debug\OpenCVDemo.obj
+         x64\Debug\stdafx.obj
+         OpenCVDemo.vcxproj -> C:\Users\BeyondVincent\Desktop\OpenVC\code\OpenCVDemo\x64\Debug\OpenCVDemo.exe
+     1>已完成生成项目“C:\Users\BeyondVincent\Desktop\OpenVC\code\OpenCVDemo\OpenCVDemo\OpenCVDemo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.74

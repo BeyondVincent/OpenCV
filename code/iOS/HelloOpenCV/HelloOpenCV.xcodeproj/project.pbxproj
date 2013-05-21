@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF3B0F8217474C3300339E75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3B0F8117474C3300339E75 /* UIKit.framework */; };
+		DF3B0F8417474C3300339E75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3B0F8317474C3300339E75 /* Foundation.framework */; };
+		DF3B0F8617474C3300339E75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3B0F8517474C3300339E75 /* CoreGraphics.framework */; };
+		DF3B0F8C17474C3300339E75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF3B0F8A17474C3300339E75 /* InfoPlist.strings */; };
+		DF3B0F8E17474C3300339E75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3B0F8D17474C3300339E75 /* main.m */; };
+		DF3B0F9217474C3300339E75 /* BVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3B0F9117474C3300339E75 /* BVAppDelegate.m */; };
+		DF3B0F9417474C3300339E75 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3B0F9317474C3300339E75 /* Default.png */; };
+		DF3B0F9617474C3300339E75 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3B0F9517474C3300339E75 /* Default@2x.png */; };
+		DF3B0F9817474C3300339E75 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3B0F9717474C3300339E75 /* Default-568h@2x.png */; };
+		DF3B0F9B17474C3300339E75 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3B0F9917474C3300339E75 /* MainStoryboard_iPhone.storyboard */; };
+		DF3B0F9E17474C3300339E75 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3B0F9C17474C3300339E75 /* MainStoryboard_iPad.storyboard */; };
+		DF3B0FA117474C3300339E75 /* BVViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DF3B0FA017474C3300339E75 /* BVViewController.mm */; };
+		DF3B0FA817474C5C00339E75 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3B0FA717474C5C00339E75 /* opencv2.framework */; };
+		DF3B0FAA17474D7800339E75 /* opencv-logo-white.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3B0FA917474D7800339E75 /* opencv-logo-white.png */; };
+		DF3B0FAC1747582900339E75 /* opencv-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3B0FAB1747582900339E75 /* opencv-logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF3B0F7E17474C3300339E75 /* HelloOpenCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloOpenCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3B0F8117474C3300339E75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF3B0F8317474C3300339E75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF3B0F8517474C3300339E75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF3B0F8917474C3300339E75 /* HelloOpenCV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloOpenCV-Info.plist"; sourceTree = "<group>"; };
+		DF3B0F8B17474C3300339E75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF3B0F8D17474C3300339E75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF3B0F8F17474C3300339E75 /* HelloOpenCV-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloOpenCV-Prefix.pch"; sourceTree = "<group>"; };
+		DF3B0F9017474C3300339E75 /* BVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BVAppDelegate.h; sourceTree = "<group>"; };
+		DF3B0F9117474C3300339E75 /* BVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BVAppDelegate.m; sourceTree = "<group>"; };
+		DF3B0F9317474C3300339E75 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DF3B0F9517474C3300339E75 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DF3B0F9717474C3300339E75 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DF3B0F9A17474C3300339E75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		DF3B0F9D17474C3300339E75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		DF3B0F9F17474C3300339E75 /* BVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BVViewController.h; sourceTree = "<group>"; };
+		DF3B0FA017474C3300339E75 /* BVViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BVViewController.mm; sourceTree = "<group>"; };
+		DF3B0FA717474C5C00339E75 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../soft/opencv/opencv2.framework; sourceTree = "<group>"; };
+		DF3B0FA917474D7800339E75 /* opencv-logo-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "opencv-logo-white.png"; sourceTree = "<group>"; };
+		DF3B0FAB1747582900339E75 /* opencv-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "opencv-logo.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF3B0F7B17474C3300339E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3B0FA817474C5C00339E75 /* opencv2.framework in Frameworks */,
+				DF3B0F8217474C3300339E75 /* UIKit.framework in Frameworks */,
+				DF3B0F8417474C3300339E75 /* Foundation.framework in Frameworks */,
+				DF3B0F8617474C3300339E75 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF3B0F7517474C3300339E75 = {
+			isa = PBXGroup;
+			children = (
+				DF3B0FAB1747582900339E75 /* opencv-logo.png */,
+				DF3B0F8717474C3300339E75 /* HelloOpenCV */,
+				DF3B0F8017474C3300339E75 /* Frameworks */,
+				DF3B0F7F17474C3300339E75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF3B0F7F17474C3300339E75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF3B0F7E17474C3300339E75 /* HelloOpenCV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF3B0F8017474C3300339E75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF3B0FA717474C5C00339E75 /* opencv2.framework */,
+				DF3B0F8117474C3300339E75 /* UIKit.framework */,
+				DF3B0F8317474C3300339E75 /* Foundation.framework */,
+				DF3B0F8517474C3300339E75 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF3B0F8717474C3300339E75 /* HelloOpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				DF3B0F9017474C3300339E75 /* BVAppDelegate.h */,
+				DF3B0F9117474C3300339E75 /* BVAppDelegate.m */,
+				DF3B0F9917474C3300339E75 /* MainStoryboard_iPhone.storyboard */,
+				DF3B0F9C17474C3300339E75 /* MainStoryboard_iPad.storyboard */,
+				DF3B0F9F17474C3300339E75 /* BVViewController.h */,
+				DF3B0FA017474C3300339E75 /* BVViewController.mm */,
+				DF3B0F8817474C3300339E75 /* Supporting Files */,
+			);
+			path = HelloOpenCV;
+			sourceTree = "<group>";
+		};
+		DF3B0F8817474C3300339E75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF3B0FA917474D7800339E75 /* opencv-logo-white.png */,
+				DF3B0F8917474C3300339E75 /* HelloOpenCV-Info.plist */,
+				DF3B0F8A17474C3300339E75 /* InfoPlist.strings */,
+				DF3B0F8D17474C3300339E75 /* main.m */,
+				DF3B0F8F17474C3300339E75 /* HelloOpenCV-Prefix.pch */,
+				DF3B0F9317474C3300339E75 /* Default.png */,
+				DF3B0F9517474C3300339E75 /* Default@2x.png */,
+				DF3B0F9717474C3300339E75 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF3B0F7D17474C3300339E75 /* HelloOpenCV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3B0FA417474C3300339E75 /* Build configuration list for PBXNativeTarget "HelloOpenCV" */;
+			buildPhases = (
+				DF3B0F7A17474C3300339E75 /* Sources */,
+				DF3B0F7B17474C3300339E75 /* Frameworks */,
+				DF3B0F7C17474C3300339E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloOpenCV;
+			productName = HelloOpenCV;
+			productReference = DF3B0F7E17474C3300339E75 /* HelloOpenCV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF3B0F7617474C3300339E75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BV;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = BeyondVincent;
+			};
+			buildConfigurationList = DF3B0F7917474C3300339E75 /* Build configuration list for PBXProject "HelloOpenCV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF3B0F7517474C3300339E75;
+			productRefGroup = DF3B0F7F17474C3300339E75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF3B0F7D17474C3300339E75 /* HelloOpenCV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF3B0F7C17474C3300339E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3B0F8C17474C3300339E75 /* InfoPlist.strings in Resources */,
+				DF3B0F9417474C3300339E75 /* Default.png in Resources */,
+				DF3B0F9617474C3300339E75 /* Default@2x.png in Resources */,
+				DF3B0F9817474C3300339E75 /* Default-568h@2x.png in Resources */,
+				DF3B0F9B17474C3300339E75 /* MainStoryboard_iPhone.storyboard in Resources */,
+				DF3B0F9E17474C3300339E75 /* MainStoryboard_iPad.storyboard in Resources */,
+				DF3B0FAA17474D7800339E75 /* opencv-logo-white.png in Resources */,
+				DF3B0FAC1747582900339E75 /* opencv-logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF3B0F7A17474C3300339E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3B0F8E17474C3300339E75 /* main.m in Sources */,
+				DF3B0F9217474C3300339E75 /* BVAppDelegate.m in Sources */,
+				DF3B0FA117474C3300339E75 /* BVViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF3B0F8A17474C3300339E75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF3B0F8B17474C3300339E75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF3B0F9917474C3300339E75 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF3B0F9A17474C3300339E75 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DF3B0F9C17474C3300339E75 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF3B0F9D17474C3300339E75 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF3B0FA217474C3300339E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF3B0FA317474C3300339E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF3B0FA517474C3300339E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../soft/opencv\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloOpenCV/HelloOpenCV-Prefix.pch";
+				INFOPLIST_FILE = "HelloOpenCV/HelloOpenCV-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF3B0FA617474C3300339E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../soft/opencv\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloOpenCV/HelloOpenCV-Prefix.pch";
+				INFOPLIST_FILE = "HelloOpenCV/HelloOpenCV-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF3B0F7917474C3300339E75 /* Build configuration list for PBXProject "HelloOpenCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3B0FA217474C3300339E75 /* Debug */,
+				DF3B0FA317474C3300339E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3B0FA417474C3300339E75 /* Build configuration list for PBXNativeTarget "HelloOpenCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3B0FA517474C3300339E75 /* Debug */,
+				DF3B0FA617474C3300339E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF3B0F7617474C3300339E75 /* Project object */;
+}
